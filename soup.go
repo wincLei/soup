@@ -10,8 +10,7 @@ import (
 	"net/http"
 	"regexp"
 	"strings"
-
-	"golang.org/x/net/html"
+	"github.com/golang/net/tree/master/html"
 )
 
 // Root is a structure containing a pointer to an html node, the node value, and an error variable to return an error if occurred
